@@ -1,6 +1,6 @@
 import React from 'react';
 import { Trans } from '@lingui/macro';
-import { AlertDialog } from '@chia/core';
+import { AlertDialog } from '@chialite/core';
 import {
   Typography,
   Button,
@@ -20,7 +20,7 @@ import {
 } from '../../../modules/createWallet';
 import { useStyles } from './WalletCreate';
 import { create_rl_admin_action } from '../../../modules/message';
-import { chia_to_mojo } from '../../../util/chia';
+import { chialite_to_mojo } from '../../../util/chialite';
 import { openDialog } from '../../../modules/dialog';
 
 export const customStyles = makeStyles((theme) => ({
@@ -76,7 +76,7 @@ export const CreateRLAdminWallet = () => {
   const custom = customStyles();
   const dispatch = useDispatch();
   let interval_input = null;
-  let chiaper_input = null;
+  let chialiteper_input = null;
   let userpubkey_input = null;
   let amount_input = null;
   let fee_input = null;
@@ -106,10 +106,10 @@ export const CreateRLAdminWallet = () => {
       return;
     }
     if (
-      chiaper_input.value === '' ||
-      Number(chiaper_input.value) === 0 ||
-      !Number(chiaper_input.value) ||
-      isNaN(Number(chiaper_input.value))
+      chialiteper_input.value === '' ||
+      Number(chialiteper_input.value) === 0 ||
+      !Number(chialiteper_input.value) ||
+      isNaN(Number(chialiteper_input.value))
     ) {
       dispatch(
         openDialog(
@@ -166,18 +166,18 @@ export const CreateRLAdminWallet = () => {
     dispatch(createState(true, true));
     const interval = interval_input.value;
     const interval_value = Number.parseInt(Number(interval));
-    const chiaper = chia_to_mojo(chiaper_input.value);
-    const chiaper_value = Number.parseInt(Number(chiaper));
+    const chialiteper = chialite_to_mojo(chialiteper_input.value);
+    const chialiteper_value = Number.parseInt(Number(chialiteper));
     const userpubkey = userpubkey_input.value;
-    const amount = chia_to_mojo(amount_input.value);
+    const amount = chialite_to_mojo(amount_input.value);
     const amount_value = Number.parseInt(Number(amount));
-    // var fee = chia_to_mojo(fee_input.value);
+    // var fee = chialite_to_mojo(fee_input.value);
     // TODO(lipa): send fee to server
     // const fee_value = parseInt(Number(fee));
     dispatch(
       create_rl_admin_action(
         interval_value,
-        chiaper_value,
+        chialiteper_value,
         userpubkey,
         amount_value,
       ),
@@ -241,7 +241,7 @@ export const CreateRLAdminWallet = () => {
               color="secondary"
               fullWidth
               inputRef={(input) => {
-                chiaper_input = input;
+                chialiteper_input = input;
               }}
               label={
                 <Trans>

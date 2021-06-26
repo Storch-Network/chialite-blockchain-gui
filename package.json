@@ -1,8 +1,8 @@
 {
-  "name": "chia-blockchain",
-  "author": "Chia Network <hello@chia.net> (https://chia.net/)",
-  "description": "GUI for Chia Blockchain",
-  "productName": "Chia Blockchain",
+  "name": "chialite-blockchain",
+  "author": "Chialite Network <hello@chialite.net> (https://chialite.net/)",
+  "description": "GUI for Chialite Blockchain",
+  "productName": "Chialite Blockchain",
   "private": true,
   "homepage": "./",
   "main": "build/electron/main.js",

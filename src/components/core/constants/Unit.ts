@@ -1,5 +1,5 @@
 enum Unit {
-  CHIA = 'CHIA',
+  CHIALITE = 'CHIALITE',
   MOJO = 'MOJO',
   COLOURED_COIN = 'COLOUREDCOIN',
 }
