@@ -13,7 +13,7 @@ function getInstallerConfig () {
   const rootPath = path.join('./')
   const outPath = path.join(rootPath, 'release-builds')
 
-  return Promise.resolve({
+  return Promise.resolve({ 
     appDirectory: path.join(rootPath, 'Chialite-win32-x64'),
     authors: 'Chialite Network',
     version: process.env.CHIALITE_INSTALLER_VERSION,

@@ -47,9 +47,9 @@ msgstr "Potvrdit"
 msgid "Accepted at time:"
 msgstr "Přijato kdy:"
 
+#: src/components/plot/overview/PlotOverviewPlots.tsx:88
 #: src/components/plot/PlotsFailed.tsx:17
 #: src/components/plot/PlotsNotFound.tsx:17
-#: src/components/plot/overview/PlotOverviewPlots.tsx:88
 msgid "Action"
 msgstr "Akce"
 
@@ -76,9 +76,9 @@ msgid "Add Wallet"
 msgstr "Přidat peněženku"
 
 #: src/components/farm/overview/FarmOverviewHero.tsx:47
-#: src/components/plot/PlotHeader.tsx:46
 #: src/components/plot/add/PlotAdd.tsx:80
 #: src/components/plot/overview/PlotOverviewHero.tsx:40
+#: src/components/plot/PlotHeader.tsx:46
 msgid "Add a Plot"
 msgstr "Přidat Pole"
 
@@ -103,10 +103,10 @@ msgstr "Adresa / Hash šifry"
 
 #: src/components/trading/CreateOffer.jsx:213
 #: src/components/trading/TradesTable.tsx:18
-#: src/components/wallet/WalletHistory.tsx:62
 #: src/components/wallet/create/createNewColouredCoin.jsx:125
 #: src/components/wallet/rateLimited/WalletRateLimited.jsx:770
 #: src/components/wallet/standard/WalletStandard.tsx:486
+#: src/components/wallet/WalletHistory.tsx:62
 msgid "Amount"
 msgstr "Částka"
 
@@ -594,10 +594,10 @@ msgstr "Upravit"
 msgid "Enter the 24 word mnemonic that you have saved in order to restore your Chialite wallet."
 msgstr "Zadejte 24 slov, které jste si poznamenali při zakládání vaší Chialite peněženky."
 
-#: src/components/farm/FarmerStatus.tsx:21
-#: src/components/farm/FarmerStatus.tsx:22
 #: src/components/farm/card/FarmCardStatus.tsx:41
 #: src/components/farm/card/FarmCardStatus.tsx:55
+#: src/components/farm/FarmerStatus.tsx:21
+#: src/components/farm/FarmerStatus.tsx:22
 #: src/components/plot/PlotStatus.tsx:20
 #: src/components/plot/PlotStatus.tsx:21
 #: src/components/plot/queue/PlotQueueIndicator.tsx:20
@@ -682,9 +682,9 @@ msgstr ""
 msgid "Farmers earn block rewards and transaction fees by committing spare space to the network to help secure transactions. This is where your farm will be once you add a plot. <0>Learn more</0>"
 msgstr "Farmáři získávají odměny za bloky a transakční poplatky tím, že vloží svůj volný prostor do sítě a zabezpečí tím tak transakce. Farmu, kterou uvidíte zde, vytvoříte přidáním nějakých polí. <0>Více informací</0>"
 
+#: src/components/farm/card/FarmCardStatus.tsx:68
 #: src/components/farm/Farm.tsx:23
 #: src/components/farm/FarmerStatus.tsx:18
-#: src/components/farm/card/FarmCardStatus.tsx:68
 #: src/components/plot/PlotStatus.tsx:17
 msgid "Farming"
 msgstr "Farmaření"
@@ -697,13 +697,13 @@ msgstr "Farmaření"
 msgid "Farming Status"
 msgstr "Stav"
 
-#: src/components/wallet/WalletHistory.tsx:66
 #: src/components/wallet/create/createExistingColouredCoin.jsx:131
 #: src/components/wallet/create/createNewColouredCoin.jsx:138
 #: src/components/wallet/create/createRLAdmin.jsx:266
 #: src/components/wallet/create/createRLAdmin.jsx:298
 #: src/components/wallet/rateLimited/WalletRateLimited.jsx:783
 #: src/components/wallet/standard/WalletStandard.tsx:500
+#: src/components/wallet/WalletHistory.tsx:66
 msgid "Fee"
 msgstr "Poplatek"
 
@@ -732,9 +732,9 @@ msgstr "Výše poplatků"
 msgid "File"
 msgstr "Soubor"
 
+#: src/components/plot/overview/PlotOverviewPlots.tsx:80
 #: src/components/plot/PlotsFailed.tsx:13
 #: src/components/plot/PlotsNotFound.tsx:13
-#: src/components/plot/overview/PlotOverviewPlots.tsx:80
 msgid "Filename"
 msgstr "Název souboru"
 
@@ -1035,9 +1035,9 @@ msgstr "ID uzlu"
 msgid "None of your plots have passed the plot filter yet."
 msgstr "Žádné z vašich polí dosud neprošlo filtrem poli."
 
-#: src/components/farm/FarmerStatus.tsx:20
 #: src/components/farm/card/FarmCardNotAvailable.tsx:19
 #: src/components/farm/card/FarmCardNotAvailable.tsx:22
+#: src/components/farm/FarmerStatus.tsx:20
 #: src/components/plot/PlotStatus.tsx:19
 msgid "Not Available"
 msgstr "Nedostupný"
@@ -1599,8 +1599,8 @@ msgstr "Stav"
 #: src/components/plot/overview/PlotOverviewPlots.tsx:84
 #: src/components/trading/TradingOverview.jsx:128
 #: src/components/wallet/WalletHistory.tsx:56
-#: src/components/wallet/WalletStatusCard.tsx:21
 #: src/components/wallet/Wallets.tsx:135
+#: src/components/wallet/WalletStatusCard.tsx:21
 msgid "Status"
 msgstr "Stav"
 
@@ -1644,8 +1644,8 @@ msgstr "Odeslat"
 msgid "Synced"
 msgstr "Synchronizováno"
 
-#: src/components/farm/FarmerStatus.tsx:19
 #: src/components/farm/card/FarmCardStatus.tsx:18
+#: src/components/farm/FarmerStatus.tsx:19
 #: src/components/plot/PlotStatus.tsx:18
 msgid "Syncing"
 msgstr "Synchronizace"
@@ -2064,13 +2064,13 @@ msgstr "[Chyba 13] Přístup odepřen. Snažíte se o přístup k souboru/složc
 msgid "[Error 22] File not found. Most likely one of the plot folders in your config.yaml has an issue."
 msgstr "[Chyba 22] Soubor nenalezen. Jedna ze složek polí v konfiguraci má pravděpodobně potíže."
 
-#: src/components/wallet/WalletStatusCard.tsx:44
 #: src/components/wallet/Wallets.tsx:158
+#: src/components/wallet/WalletStatusCard.tsx:44
 msgid "connections:"
 msgstr "spojení:"
 
-#: src/components/wallet/WalletStatusCard.tsx:38
 #: src/components/wallet/Wallets.tsx:152
+#: src/components/wallet/WalletStatusCard.tsx:38
 msgid "height:"
 msgstr "výška:"
 
@@ -2078,18 +2078,18 @@ msgstr "výška:"
 msgid "not synced"
 msgstr "nesynchronizováno"
 
-#: src/components/wallet/WalletStatusCard.tsx:26
 #: src/components/wallet/Wallets.tsx:140
+#: src/components/wallet/WalletStatusCard.tsx:26
 msgid "status:"
 msgstr "stav:"
 
-#: src/components/wallet/WalletStatusCard.tsx:32
 #: src/components/wallet/Wallets.tsx:145
+#: src/components/wallet/WalletStatusCard.tsx:32
 msgid "synced"
 msgstr "synchronizováno"
 
-#: src/components/wallet/WalletStatusCard.tsx:30
 #: src/components/wallet/Wallets.tsx:144
+#: src/components/wallet/WalletStatusCard.tsx:30
 msgid "syncing"
 msgstr "synchronizace"
 
@@ -2112,4 +2112,3 @@ msgstr "Celkem nafarmařeno {currencyCode}"
 #: src/components/farm/card/FarmCardUserFees.tsx:28
 msgid "{currencyCode} User Transaction Fees"
 msgstr "Poplatky za transakce {currencyCode}"
-

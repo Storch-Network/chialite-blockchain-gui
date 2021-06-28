@@ -47,9 +47,9 @@ msgstr "Prano"
 msgid "Accepted at time:"
 msgstr "Të pranuara gjatë kohës:"
 
+#: src/components/plot/overview/PlotOverviewPlots.tsx:88
 #: src/components/plot/PlotsFailed.tsx:17
 #: src/components/plot/PlotsNotFound.tsx:17
-#: src/components/plot/overview/PlotOverviewPlots.tsx:88
 msgid "Action"
 msgstr "Veprim"
 
@@ -76,9 +76,9 @@ msgid "Add Wallet"
 msgstr "Shto kuletë"
 
 #: src/components/farm/overview/FarmOverviewHero.tsx:47
-#: src/components/plot/PlotHeader.tsx:46
 #: src/components/plot/add/PlotAdd.tsx:80
 #: src/components/plot/overview/PlotOverviewHero.tsx:40
+#: src/components/plot/PlotHeader.tsx:46
 msgid "Add a Plot"
 msgstr "Shto nje Plot"
 
@@ -103,10 +103,10 @@ msgstr "Adresa / Kodimi numerik"
 
 #: src/components/trading/CreateOffer.jsx:213
 #: src/components/trading/TradesTable.tsx:18
-#: src/components/wallet/WalletHistory.tsx:62
 #: src/components/wallet/create/createNewColouredCoin.jsx:125
 #: src/components/wallet/rateLimited/WalletRateLimited.jsx:770
 #: src/components/wallet/standard/WalletStandard.tsx:486
+#: src/components/wallet/WalletHistory.tsx:62
 msgid "Amount"
 msgstr "Sasia"
 
@@ -594,10 +594,10 @@ msgstr "Modifiko"
 msgid "Enter the 24 word mnemonic that you have saved in order to restore your Chialite wallet."
 msgstr "Shkruaj 24 fjalët mnemonic që ke ruajtur pëer të rikthyer Kuletën tende Chialite."
 
-#: src/components/farm/FarmerStatus.tsx:21
-#: src/components/farm/FarmerStatus.tsx:22
 #: src/components/farm/card/FarmCardStatus.tsx:41
 #: src/components/farm/card/FarmCardStatus.tsx:55
+#: src/components/farm/FarmerStatus.tsx:21
+#: src/components/farm/FarmerStatus.tsx:22
 #: src/components/plot/PlotStatus.tsx:20
 #: src/components/plot/PlotStatus.tsx:21
 #: src/components/plot/queue/PlotQueueIndicator.tsx:20
@@ -682,9 +682,9 @@ msgstr ""
 msgid "Farmers earn block rewards and transaction fees by committing spare space to the network to help secure transactions. This is where your farm will be once you add a plot. <0>Learn more</0>"
 msgstr "Fermerët fitojnë shpërblime blloku dhe tarifa transaksionesh duke ofruar hapësirën ​​e lirë në rrjet dhe për të ndihmuar transaksionet e sigurta. Kjo do të jetë ferma juaj sapo ju të shtoni një Plot. <0> Mësoni më shumë </0>"
 
+#: src/components/farm/card/FarmCardStatus.tsx:68
 #: src/components/farm/Farm.tsx:23
 #: src/components/farm/FarmerStatus.tsx:18
-#: src/components/farm/card/FarmCardStatus.tsx:68
 #: src/components/plot/PlotStatus.tsx:17
 msgid "Farming"
 msgstr "Farming"
@@ -697,13 +697,13 @@ msgstr "Farming"
 msgid "Farming Status"
 msgstr "Statusi i Farming"
 
-#: src/components/wallet/WalletHistory.tsx:66
 #: src/components/wallet/create/createExistingColouredCoin.jsx:131
 #: src/components/wallet/create/createNewColouredCoin.jsx:138
 #: src/components/wallet/create/createRLAdmin.jsx:266
 #: src/components/wallet/create/createRLAdmin.jsx:298
 #: src/components/wallet/rateLimited/WalletRateLimited.jsx:783
 #: src/components/wallet/standard/WalletStandard.tsx:500
+#: src/components/wallet/WalletHistory.tsx:66
 msgid "Fee"
 msgstr "Tarifa"
 
@@ -732,9 +732,9 @@ msgstr "Shuma e tarifës"
 msgid "File"
 msgstr "Skedari"
 
+#: src/components/plot/overview/PlotOverviewPlots.tsx:80
 #: src/components/plot/PlotsFailed.tsx:13
 #: src/components/plot/PlotsNotFound.tsx:13
-#: src/components/plot/overview/PlotOverviewPlots.tsx:80
 msgid "Filename"
 msgstr "Emri i skedarit"
 
@@ -1035,9 +1035,9 @@ msgstr "ID e nyjes"
 msgid "None of your plots have passed the plot filter yet."
 msgstr "Asnjë nga plotet tuaja nuk e ka kaluar filtrin akoma."
 
-#: src/components/farm/FarmerStatus.tsx:20
 #: src/components/farm/card/FarmCardNotAvailable.tsx:19
 #: src/components/farm/card/FarmCardNotAvailable.tsx:22
+#: src/components/farm/FarmerStatus.tsx:20
 #: src/components/plot/PlotStatus.tsx:19
 msgid "Not Available"
 msgstr "Jo i disponueshëm"
@@ -1599,8 +1599,8 @@ msgstr "Krahina"
 #: src/components/plot/overview/PlotOverviewPlots.tsx:84
 #: src/components/trading/TradingOverview.jsx:128
 #: src/components/wallet/WalletHistory.tsx:56
-#: src/components/wallet/WalletStatusCard.tsx:21
 #: src/components/wallet/Wallets.tsx:135
+#: src/components/wallet/WalletStatusCard.tsx:21
 msgid "Status"
 msgstr "Statusi"
 
@@ -1644,8 +1644,8 @@ msgstr "Paraqit"
 msgid "Synced"
 msgstr "Sinkronizuar"
 
-#: src/components/farm/FarmerStatus.tsx:19
 #: src/components/farm/card/FarmCardStatus.tsx:18
+#: src/components/farm/FarmerStatus.tsx:19
 #: src/components/plot/PlotStatus.tsx:18
 msgid "Syncing"
 msgstr "Sinkronizimi"
@@ -2064,13 +2064,13 @@ msgstr "[Gabimi 13] Leja u refuzua. Ju po përpiqeni të përdorni një skedar /
 msgid "[Error 22] File not found. Most likely one of the plot folders in your config.yaml has an issue."
 msgstr "[Gabimi 22] Skedari nuk u gjet. Ka shumë të ngjarë që një nga dosjet e skemave në konfigurimin.yaml ka një problem."
 
-#: src/components/wallet/WalletStatusCard.tsx:44
 #: src/components/wallet/Wallets.tsx:158
+#: src/components/wallet/WalletStatusCard.tsx:44
 msgid "connections:"
 msgstr "lidhje:"
 
-#: src/components/wallet/WalletStatusCard.tsx:38
 #: src/components/wallet/Wallets.tsx:152
+#: src/components/wallet/WalletStatusCard.tsx:38
 msgid "height:"
 msgstr "lartësia:"
 
@@ -2078,18 +2078,18 @@ msgstr "lartësia:"
 msgid "not synced"
 msgstr "i pa sinkronizuar"
 
-#: src/components/wallet/WalletStatusCard.tsx:26
 #: src/components/wallet/Wallets.tsx:140
+#: src/components/wallet/WalletStatusCard.tsx:26
 msgid "status:"
 msgstr "statusi:"
 
-#: src/components/wallet/WalletStatusCard.tsx:32
 #: src/components/wallet/Wallets.tsx:145
+#: src/components/wallet/WalletStatusCard.tsx:32
 msgid "synced"
 msgstr "sinkronizuar"
 
-#: src/components/wallet/WalletStatusCard.tsx:30
 #: src/components/wallet/Wallets.tsx:144
+#: src/components/wallet/WalletStatusCard.tsx:30
 msgid "syncing"
 msgstr "po sinkronizohet"
 
@@ -2112,4 +2112,3 @@ msgstr "{currencyCode} Totali i Chialite"
 #: src/components/farm/card/FarmCardUserFees.tsx:28
 msgid "{currencyCode} User Transaction Fees"
 msgstr "{currencyCode} Tarifat e Transaksionit të Përdoruesit"
-

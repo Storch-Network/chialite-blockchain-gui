@@ -47,9 +47,9 @@ msgstr "Accept"
 msgid "Accepted at time:"
 msgstr "Acceptat la:"
 
+#: src/components/plot/overview/PlotOverviewPlots.tsx:88
 #: src/components/plot/PlotsFailed.tsx:17
 #: src/components/plot/PlotsNotFound.tsx:17
-#: src/components/plot/overview/PlotOverviewPlots.tsx:88
 msgid "Action"
 msgstr "Acțiune"
 
@@ -76,9 +76,9 @@ msgid "Add Wallet"
 msgstr "Adaugă Portofel"
 
 #: src/components/farm/overview/FarmOverviewHero.tsx:47
-#: src/components/plot/PlotHeader.tsx:46
 #: src/components/plot/add/PlotAdd.tsx:80
 #: src/components/plot/overview/PlotOverviewHero.tsx:40
+#: src/components/plot/PlotHeader.tsx:46
 msgid "Add a Plot"
 msgstr "Adaugă o Parcelă"
 
@@ -103,10 +103,10 @@ msgstr "Adresă / Hash enigmă"
 
 #: src/components/trading/CreateOffer.jsx:213
 #: src/components/trading/TradesTable.tsx:18
-#: src/components/wallet/WalletHistory.tsx:62
 #: src/components/wallet/create/createNewColouredCoin.jsx:125
 #: src/components/wallet/rateLimited/WalletRateLimited.jsx:770
 #: src/components/wallet/standard/WalletStandard.tsx:486
+#: src/components/wallet/WalletHistory.tsx:62
 msgid "Amount"
 msgstr "Sumă"
 
@@ -594,10 +594,10 @@ msgstr "Editare"
 msgid "Enter the 24 word mnemonic that you have saved in order to restore your Chialite wallet."
 msgstr "Introduceti cele 24 de cuvinte din mnemmonic seed pe care le-ati salvat pentru a restaura portofelul dvs. Chialite."
 
-#: src/components/farm/FarmerStatus.tsx:21
-#: src/components/farm/FarmerStatus.tsx:22
 #: src/components/farm/card/FarmCardStatus.tsx:41
 #: src/components/farm/card/FarmCardStatus.tsx:55
+#: src/components/farm/FarmerStatus.tsx:21
+#: src/components/farm/FarmerStatus.tsx:22
 #: src/components/plot/PlotStatus.tsx:20
 #: src/components/plot/PlotStatus.tsx:21
 #: src/components/plot/queue/PlotQueueIndicator.tsx:20
@@ -682,9 +682,9 @@ msgstr ""
 msgid "Farmers earn block rewards and transaction fees by committing spare space to the network to help secure transactions. This is where your farm will be once you add a plot. <0>Learn more</0>"
 msgstr "Fermierii câștigă recompense bloc și taxe de tranzacționare prin angajarea în rețea a spațiului liber, ajutând la securizarea tranzacțiilor. Aici va fi ferma ta după ce adaugi o parcelă. <0> Află mai multe </0>"
 
+#: src/components/farm/card/FarmCardStatus.tsx:68
 #: src/components/farm/Farm.tsx:23
 #: src/components/farm/FarmerStatus.tsx:18
-#: src/components/farm/card/FarmCardStatus.tsx:68
 #: src/components/plot/PlotStatus.tsx:17
 msgid "Farming"
 msgstr "Cultivare"
@@ -697,13 +697,13 @@ msgstr "Cultivare"
 msgid "Farming Status"
 msgstr "Stare cultivare"
 
-#: src/components/wallet/WalletHistory.tsx:66
 #: src/components/wallet/create/createExistingColouredCoin.jsx:131
 #: src/components/wallet/create/createNewColouredCoin.jsx:138
 #: src/components/wallet/create/createRLAdmin.jsx:266
 #: src/components/wallet/create/createRLAdmin.jsx:298
 #: src/components/wallet/rateLimited/WalletRateLimited.jsx:783
 #: src/components/wallet/standard/WalletStandard.tsx:500
+#: src/components/wallet/WalletHistory.tsx:66
 msgid "Fee"
 msgstr "Taxe"
 
@@ -732,9 +732,9 @@ msgstr "Suma taxe"
 msgid "File"
 msgstr "Filă"
 
+#: src/components/plot/overview/PlotOverviewPlots.tsx:80
 #: src/components/plot/PlotsFailed.tsx:13
 #: src/components/plot/PlotsNotFound.tsx:13
-#: src/components/plot/overview/PlotOverviewPlots.tsx:80
 msgid "Filename"
 msgstr "Nume fisier"
 
@@ -1035,9 +1035,9 @@ msgstr "ID-ul Nodului"
 msgid "None of your plots have passed the plot filter yet."
 msgstr "Niciuna din parcelele tale nu a trecut încă filtrul."
 
-#: src/components/farm/FarmerStatus.tsx:20
 #: src/components/farm/card/FarmCardNotAvailable.tsx:19
 #: src/components/farm/card/FarmCardNotAvailable.tsx:22
+#: src/components/farm/FarmerStatus.tsx:20
 #: src/components/plot/PlotStatus.tsx:19
 msgid "Not Available"
 msgstr "Indisponibil"
@@ -1599,8 +1599,8 @@ msgstr "Stare"
 #: src/components/plot/overview/PlotOverviewPlots.tsx:84
 #: src/components/trading/TradingOverview.jsx:128
 #: src/components/wallet/WalletHistory.tsx:56
-#: src/components/wallet/WalletStatusCard.tsx:21
 #: src/components/wallet/Wallets.tsx:135
+#: src/components/wallet/WalletStatusCard.tsx:21
 msgid "Status"
 msgstr "Status"
 
@@ -1644,8 +1644,8 @@ msgstr "Trimite"
 msgid "Synced"
 msgstr "Sincronizat"
 
-#: src/components/farm/FarmerStatus.tsx:19
 #: src/components/farm/card/FarmCardStatus.tsx:18
+#: src/components/farm/FarmerStatus.tsx:19
 #: src/components/plot/PlotStatus.tsx:18
 msgid "Syncing"
 msgstr "Se sincronizează"
@@ -2064,13 +2064,13 @@ msgstr ""
 msgid "[Error 22] File not found. Most likely one of the plot folders in your config.yaml has an issue."
 msgstr ""
 
-#: src/components/wallet/WalletStatusCard.tsx:44
 #: src/components/wallet/Wallets.tsx:158
+#: src/components/wallet/WalletStatusCard.tsx:44
 msgid "connections:"
 msgstr "conexiuni:"
 
-#: src/components/wallet/WalletStatusCard.tsx:38
 #: src/components/wallet/Wallets.tsx:152
+#: src/components/wallet/WalletStatusCard.tsx:38
 msgid "height:"
 msgstr "inaltimea:"
 
@@ -2078,18 +2078,18 @@ msgstr "inaltimea:"
 msgid "not synced"
 msgstr "nesincronizat"
 
-#: src/components/wallet/WalletStatusCard.tsx:26
 #: src/components/wallet/Wallets.tsx:140
+#: src/components/wallet/WalletStatusCard.tsx:26
 msgid "status:"
 msgstr "status:"
 
-#: src/components/wallet/WalletStatusCard.tsx:32
 #: src/components/wallet/Wallets.tsx:145
+#: src/components/wallet/WalletStatusCard.tsx:32
 msgid "synced"
 msgstr "sincronizat"
 
-#: src/components/wallet/WalletStatusCard.tsx:30
 #: src/components/wallet/Wallets.tsx:144
+#: src/components/wallet/WalletStatusCard.tsx:30
 msgid "syncing"
 msgstr "se sincronizeaza"
 
@@ -2112,4 +2112,3 @@ msgstr "{currencyCode} Total Chialite cultivat"
 #: src/components/farm/card/FarmCardUserFees.tsx:28
 msgid "{currencyCode} User Transaction Fees"
 msgstr "{currencyCode} Comisioane de tranzacție"
-
